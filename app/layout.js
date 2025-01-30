@@ -5,10 +5,10 @@ import ReduxProvider from '@/store/ReduxProvider';
 import {GoogleAnalytics} from '@next/third-parties/google'
 
 export const metadata = {
-    metadataBase: 'http://resumave.vercel.app',
-    title: 'Free Resume Maker | Resumave',
+    metadataBase: 'https://atscv-beta.vercel.app/',
+    title: 'Créateur de CV Gratuit | ATSCV',
     description:
-        'Our tool helps you create a resume that works with job application systems. It makes sure you look good to employers.',
+        'Notre outil vous aide à créer un CV compatible avec les systèmes de candidature en ligne. Il veille à ce que vous fassiez bonne impression auprès des employeurs.',
     openGraph: {
         title: 'Resumave',
         images: `/banner.png`,
